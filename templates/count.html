@@ -1,0 +1,13 @@
+<h1>Original:</h1>
+<br>
+{{fullText}}
+<br>
+<h1>Count: {{ wordCount}}</h1>
+<h1>Common:</h1>
+
+{% for word, count in commonWord %}
+
+{{ word }}  =  {{ count }}
+<br>
+
+{% endfor %}
